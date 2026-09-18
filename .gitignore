@@ -1,0 +1,12 @@
+# Entorno virtual
+.venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Pruebas locales
+prueba.py
+
+# Datos generados durante el desarrollo
+data/personas.json
