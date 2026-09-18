@@ -10,7 +10,7 @@ Como representar una persona y transformarla en un diccionario.
     
 Trabajar listas, metodos y busqueda de registros.
 
-### 3.- Conectar con personas.json ❌ 
+### 3.- Conectar con personas.json 🔄️ 
     
 Permitir la lectura y escritura en el archivo json, incluso aun que no exista el archivo.
 
