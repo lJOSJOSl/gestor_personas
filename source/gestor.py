@@ -20,3 +20,13 @@ class GestorPersonas:
 
         with open("data/personas.json", "w", encoding="UTF-8") as file:
             json.dump(datos, file, indent=4, ensure_ascii=False)
+
+    def cargar_personas(self):
+        with open("data/personas.json", "r", encoding="UTF-8") as file:
+            datos = json.load(file)
+
+        self.personas = []
+
+        for dato in datos:
+            persona = Persona(dato["id"], dato["nombre"], dato["edad"])
+            self.personas.append(persona)
